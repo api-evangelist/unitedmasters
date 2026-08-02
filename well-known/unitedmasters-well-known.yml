@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+host: https://unitedmasters.com
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: unitedmasters-security.txt
+    note: RFC 9116 security.txt; Contact security@unitedmasters.com (Expires field is stale, 2026-01-01)
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+hosts_probed:
+  - host: https://api.unitedmasters.com
+    status: unresolved
+  - host: https://developer.unitedmasters.com
+    status: unresolved
+  - host: https://developers.unitedmasters.com
+    status: unresolved
+  - host: https://docs.unitedmasters.com
+    status: unresolved
+  - host: https://status.unitedmasters.com
+    status: unresolved
+  - host: https://trust.unitedmasters.com
+    status: unresolved

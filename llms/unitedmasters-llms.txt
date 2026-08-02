@@ -1,0 +1,22 @@
+# UnitedMasters
+
+> UnitedMasters is an independent music distribution platform founded by Steve Stoute in 2017, backed by Alphabet, Andreessen Horowitz (a16z), and Apple. Artists distribute music to 150+ streaming services while keeping full ownership of their master recordings, with real-time royalty payouts, Blueprint AI artist-development tools, analytics, and brand/sync licensing partnerships (NBA, ESPN, TikTok, and others). UnitedMasters does not currently publish a public developer API, SDKs, or API documentation.
+
+## Company
+
+- [UnitedMasters](https://unitedmasters.com/): Digital music distribution for independent artists
+- [About](https://unitedmasters.com/about): Company overview
+- [News / Blog](https://news.unitedmasters.com/): UnitedMasters news
+- [For Labels](https://labels.unitedmasters.com/): Label services
+- [Brand & Sync](https://unitedmasters.com/en/brands/sync): Sync licensing for brands
+
+## Support
+
+- [Help Center](https://support.unitedmasters.com/): Support and FAQs
+- [Terms of Service](https://unitedmasters.com/terms)
+- [Privacy Policy](https://unitedmasters.com/privacy)
+
+## Engineering
+
+- [GitHub (tommyboytech)](https://github.com/tommyboytech): UnitedMasters engineering GitHub organization (public repos are upstream forks; no first-party SDKs)
+- [security.txt](https://unitedmasters.com/.well-known/security.txt): Security contact (security@unitedmasters.com)

@@ -1,7 +1,24 @@
 aid: unitedmasters
 name: UnitedMasters
-description: UnitedMasters is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: UnitedMasters is an independent music distribution platform founded by
+  Steve Stoute in 2017 and backed by Alphabet, Andreessen Horowitz (a16z), and Apple.
+  Artists distribute music to 150+ streaming services while keeping full ownership
+  of their master recordings, with real-time royalty payouts, Blueprint AI artist
+  development tools, analytics, and brand and sync licensing partnerships with the
+  NBA, ESPN, TikTok, and other major brands. UnitedMasters does not currently publish
+  a public developer API, SDKs, or API documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/26073772
 url: https://raw.githubusercontent.com/api-evangelist/unitedmasters/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
-- Company
+- Music
+- Music Distribution
+- Streaming
+- Royalties
+- Creator Economy
+- Entertainment
+- Media
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/unitedmasters-vulnerability-disclosure.yml
+- type: Security
+  url: https://unitedmasters.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/unitedmasters-domain-security.yml
+- type: Website
+  url: https://unitedmasters.com
+- type: Support
+  url: https://support.unitedmasters.com
+- type: Blog
+  url: https://news.unitedmasters.com
+- type: Pricing
+  url: https://unitedmasters.com/plans
+- type: SignUp
+  url: https://unitedmasters.com/join/s/account-info
+- type: Login
+  url: https://unitedmasters.com/login
+- type: TermsOfService
+  url: https://unitedmasters.com/terms
+- type: PrivacyPolicy
+  url: https://unitedmasters.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/tommyboytech
+- type: WellKnown
+  url: well-known/unitedmasters-well-known.yml
+- type: SecurityTxt
+  url: well-known/unitedmasters-security.txt
+- type: LLMsTxt
+  url: llms/unitedmasters-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
