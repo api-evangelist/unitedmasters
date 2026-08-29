@@ -7,6 +7,17 @@ description: UnitedMasters is an independent music distribution platform founded
   development tools, analytics, and brand and sync licensing partnerships with the
   NBA, ESPN, TikTok, and other major brands. UnitedMasters does not currently publish
   a public developer API, SDKs, or API documentation.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
